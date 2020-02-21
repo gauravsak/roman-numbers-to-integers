@@ -21,3 +21,6 @@ Next simplest failing test to convert "III" to 3.
 
 # Step 7
 Again I am trying to avoid writing any algorithm. So, added another if..else to pass the test.
+
+# Step 8
+I could find some clear repetition in the tests as well as code. Time to refactor! The revelation at this point is that the integer output is just the number of "I"s in the input. My generalisation may be wrong at this stage but I don't really think much.

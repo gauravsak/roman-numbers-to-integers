@@ -1,21 +1,29 @@
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RomanNumberToIntegerConverterTest {
 
+    private RomanNumberToIntegerConverter romanNumberToIntegerConverter;
+
+    @BeforeEach
+    void setUp() {
+        romanNumberToIntegerConverter = new RomanNumberToIntegerConverter();
+    }
+
     @Test
     void convertsIto1() {
-        assertEquals(1, new RomanNumberToIntegerConverter().convert("I"));
+        assertEquals(1, romanNumberToIntegerConverter.convert("I"));
     }
 
     @Test
     void convertsIIto2() {
-        assertEquals(2, new RomanNumberToIntegerConverter().convert("II"));
+        assertEquals(2, romanNumberToIntegerConverter.convert("II"));
     }
 
     @Test
     void convertsIIIto3() {
-        assertEquals(3, new RomanNumberToIntegerConverter().convert("III"));
+        assertEquals(3, romanNumberToIntegerConverter.convert("III"));
     }
 }
