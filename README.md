@@ -30,3 +30,6 @@ Next failing test to convert IV to 4.
 
 # Step 10
 This is the first I am really thinking about how to pass the test. I realised that 4 is represented as "IV" and not as "IIII". So I need to modify my logic. This reveals that when the input number is closer to the next higher literal (e.g. "IV" is closer to "V" than to "I"), the number (in Roman) starts to be represented in terms of the higher literal (i.e. "IV" is represented in terms of "V" and not as "IIII"). So I am thinking what if I start from the right and subtract the value of left literal from the right. But this will work only when literal on the left is smaller than that on right else I will have to add instead of subtract.
+
+# Step 11
+I just realised that I missed a simpler test which is of single literal as the input roman number (e.g. I, V, X, etc.). No complex calculation is needed in this case and we can just return the value of the literal. I tried to write a failing test for converting "V" to 5. However, this algoritm already works for this case. If I had written this test case at the start, I would have checked if the length of the string is 1 and just returned the value of the roman literal.

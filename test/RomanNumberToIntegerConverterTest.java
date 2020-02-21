@@ -31,4 +31,9 @@ public class RomanNumberToIntegerConverterTest {
     void convertsIVto4() {
         assertEquals(4, romanNumberToIntegerConverter.convert("IV"));
     }
+
+    @Test
+    void convertsVto5() {
+        assertEquals(5, romanNumberToIntegerConverter.convert("V"));
+    }
 }
