@@ -9,3 +9,6 @@ First failing test is to convert "I" to 1. I have assumed that this API wouldn't
 
 # Step 3
 Pass the failing test with simplest solution. I just returned 1.
+
+# Step 4
+Next simplest failing test is to convert "II" to 2.

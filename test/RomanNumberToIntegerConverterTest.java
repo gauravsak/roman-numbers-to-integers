@@ -8,4 +8,9 @@ public class RomanNumberToIntegerConverterTest {
     void convertsIto1() {
         assertEquals(1, new RomanNumberToIntegerConverter().convert("I"));
     }
+
+    @Test
+    void convertsIIto2() {
+        assertEquals(2, new RomanNumberToIntegerConverter().convert("II"));
+    }
 }
