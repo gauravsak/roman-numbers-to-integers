@@ -15,3 +15,6 @@ Next simplest failing test is to convert "II" to 2.
 
 # Step 5
 At this stage the idea is to avoid writing the actual algorithm as far as possible. So, I thought the simplest thing would be just an if..else.
+
+# Step 6
+Next simplest failing test to convert "III" to 3.

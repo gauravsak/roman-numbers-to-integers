@@ -13,4 +13,9 @@ public class RomanNumberToIntegerConverterTest {
     void convertsIIto2() {
         assertEquals(2, new RomanNumberToIntegerConverter().convert("II"));
     }
+
+    @Test
+    void convertsIIIto3() {
+        assertEquals(3, new RomanNumberToIntegerConverter().convert("III"));
+    }
 }
