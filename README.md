@@ -6,3 +6,6 @@ Verify setup is correct.
 
 # Step 2
 First failing test is to convert "I" to 1. I have assumed that this API wouldn't be passed any garbage inputs like "null" or random strings.
+
+# Step 3
+Pass the failing test with simplest solution. I just returned 1.
