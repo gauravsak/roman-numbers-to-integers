@@ -42,3 +42,6 @@ The case of "IX" is similar to that of "IV" but I have not yet provided the valu
 
 # Step 14
 Provide value of all roman literals and corresponding tests.
+
+# Step 15
+Now I am trying to consider cases involving more than two types of literals
