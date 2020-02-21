@@ -45,3 +45,6 @@ Provide value of all roman literals and corresponding tests.
 
 # Step 15
 Now I am trying to consider cases involving more than two types of literals
+
+# Conclusion
+I think this algoritm works correctly for all valid inputs known to me. I am sure I can arrive at another solution if I think more about concepts like transformation priority premise and apply other techniques like fake it till you make it, stair step tests, triangulation and one to many. Will get better with experience and practice. Eager to hear feedback!
