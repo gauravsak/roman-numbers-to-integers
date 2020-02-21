@@ -13,8 +13,14 @@ public class RomanNumberToIntegerConverterTest {
     }
 
     @Test
-    void convertsIto1() {
+    void convertsAllSingleLiteralRomanNumbersToIntegers() {
         assertEquals(1, romanNumberToIntegerConverter.convert("I"));
+        assertEquals(5, romanNumberToIntegerConverter.convert("V"));
+        assertEquals(10, romanNumberToIntegerConverter.convert("X"));
+        assertEquals(50, romanNumberToIntegerConverter.convert("L"));
+        assertEquals(100, romanNumberToIntegerConverter.convert("C"));
+        assertEquals(500, romanNumberToIntegerConverter.convert("D"));
+        assertEquals(1000, romanNumberToIntegerConverter.convert("M"));
     }
 
     @Test

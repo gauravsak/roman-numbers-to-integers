@@ -39,3 +39,6 @@ This is the first time I am considering a scenario where the right literal is sm
 
 # Step 13
 The case of "IX" is similar to that of "IV" but I have not yet provided the value of literal 'X'. I think this is also a good time to provide value of all roman literals.
+
+# Step 14
+Provide value of all roman literals and corresponding tests.
