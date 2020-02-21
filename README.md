@@ -24,3 +24,6 @@ Again I am trying to avoid writing any algorithm. So, added another if..else to 
 
 # Step 8
 I could find some clear repetition in the tests as well as code. Time to refactor! The revelation at this point is that the integer output is just the number of "I"s in the input. My generalisation may be wrong at this stage but I don't really think much.
+
+# Step 9
+Next failing test to convert IV to 4.
