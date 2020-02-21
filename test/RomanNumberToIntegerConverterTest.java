@@ -51,4 +51,9 @@ public class RomanNumberToIntegerConverterTest {
     void convertsVIIIto8() {
         assertEquals(8, romanNumberToIntegerConverter.convert("VIII"));
     }
+
+    @Test
+    void convertsIXto9() {
+        assertEquals(9, romanNumberToIntegerConverter.convert("IX"));
+    }
 }

@@ -36,3 +36,6 @@ I just realised that I missed a simpler test which is of single literal as the i
 
 # Step 12
 This is the first time I am considering a scenario where the right literal is smaller than the one to its left. However, it shouldn't be a concern because the algoritm adds them. So, I found a set of passing tests.
+
+# Step 13
+The case of "IX" is similar to that of "IV" but I have not yet provided the value of literal 'X'. I think this is also a good time to provide value of all roman literals.
