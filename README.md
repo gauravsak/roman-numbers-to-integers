@@ -33,3 +33,6 @@ This is the first I am really thinking about how to pass the test. I realised th
 
 # Step 11
 I just realised that I missed a simpler test which is of single literal as the input roman number (e.g. I, V, X, etc.). No complex calculation is needed in this case and we can just return the value of the literal. I tried to write a failing test for converting "V" to 5. However, this algoritm already works for this case. If I had written this test case at the start, I would have checked if the length of the string is 1 and just returned the value of the roman literal.
+
+# Step 12
+This is the first time I am considering a scenario where the right literal is smaller than the one to its left. However, it shouldn't be a concern because the algoritm adds them. So, I found a set of passing tests.

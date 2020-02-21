@@ -36,4 +36,19 @@ public class RomanNumberToIntegerConverterTest {
     void convertsVto5() {
         assertEquals(5, romanNumberToIntegerConverter.convert("V"));
     }
+
+    @Test
+    void convertsVIto6() {
+        assertEquals(6, romanNumberToIntegerConverter.convert("VI"));
+    }
+
+    @Test
+    void convertsVIIto7() {
+        assertEquals(7, romanNumberToIntegerConverter.convert("VII"));
+    }
+
+    @Test
+    void convertsVIIIto8() {
+        assertEquals(8, romanNumberToIntegerConverter.convert("VIII"));
+    }
 }
