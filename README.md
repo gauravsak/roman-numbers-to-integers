@@ -27,3 +27,6 @@ I could find some clear repetition in the tests as well as code. Time to refacto
 
 # Step 9
 Next failing test to convert IV to 4.
+
+# Step 10
+This is the first I am really thinking about how to pass the test. I realised that 4 is represented as "IV" and not as "IIII". So I need to modify my logic. This reveals that when the input number is closer to the next higher literal (e.g. "IV" is closer to "V" than to "I"), the number (in Roman) starts to be represented in terms of the higher literal (i.e. "IV" is represented in terms of "V" and not as "IIII"). So I am thinking what if I start from the right and subtract the value of left literal from the right. But this will work only when literal on the left is smaller than that on right else I will have to add instead of subtract.
