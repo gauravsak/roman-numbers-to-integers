@@ -18,3 +18,6 @@ At this stage the idea is to avoid writing the actual algorithm as far as possib
 
 # Step 6
 Next simplest failing test to convert "III" to 3.
+
+# Step 7
+Again I am trying to avoid writing any algorithm. So, added another if..else to pass the test.
